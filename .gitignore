@@ -72,3 +72,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Android APK build files
+**/android/app/build/
+**/*.apk
+
+# Keystore files (important for security)
+**/*.jks
+**/android/app/release.keystore
+**/android/app/debug.keystore
